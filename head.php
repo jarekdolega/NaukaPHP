@@ -1,6 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Jarosław Dolega</title>
-</head>
+ <?php
+    include 'head.php';
+ ?>
+<body>
+ <?php
+    include 'header.php';
+ ?>
+</body>
+</html>
