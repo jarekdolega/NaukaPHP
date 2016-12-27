@@ -11,4 +11,5 @@
         </ul>
     </nav>
 </header>
+<hr>
 <article>

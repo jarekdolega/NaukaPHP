@@ -1,10 +1,10 @@
         </article>
         <footer>
+            <hr>
             <p>
-                Jarosław Dolega; 
+                Jarosław Dolega 
                 <?php
-                    $data = DATE_W3C;
-                    echo $data;
+                    echo date('d/m/Y');
                 ?>
             </p>
         </footer>

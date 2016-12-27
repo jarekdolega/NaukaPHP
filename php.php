@@ -3,16 +3,26 @@
     include 'header.php';
  ?>
     <h1>Ćwiczenia praktyczne z PHP</h1>
+    <section>
+        <h2>Wyświetlanie ciągów</h2>
+        <p>
+            <?php
+                echo 'Tekst wyśwetlany poleceniem "echo"</br>';
+                print 'Tekst wyśwetlany poleceniem "print"';
+            ?>
+        </p>
+    </section>
+    
     <p>
-    <form action="php.php" method="get">
+    <form action="php.php" method="post">
         <p>Keyword: <input type="text" name="keyword"/></p>
         <p>Keynumber: <input type="number" name="keynumber"/></p>
         <p><input type="submit" name="submit" value="Zapisz"/></p>
     </form>
     <?php
     //wprowadzenie zmiennych
-    $keyword1 = $_GET['keyword'];
-    $keynumber1 = $_GET['keynumber'];
+    $keyword1 = $_POST['keyword'];
+    $keynumber1 = $_POST['keynumber'];
     $array1 = array("czerwony", "niebieski", "zielony", "fioletowy");
     $array2 = array(1, 5, 7, 8, 13, 17); 
     ?> 
